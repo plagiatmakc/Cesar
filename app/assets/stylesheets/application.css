@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /*стиль заголовка*/
+h1{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+/*поле ввода текста*/
+textarea.codeinput {            
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 220px;
+    height: 250px;
+    border: 1px solid #73AD21 ;
+    border-radius: 10px;
+}
+/*поле вывода результата*/
+textarea.codeoutput {
+    position: absolute;
+    top: 80px;
+    left: 410px;
+    width: 225px;
+    height: 250px;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
+}
+/*поле ввода смещения*/
+input.tiltposition {
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
+}
+/*кнопка кодирования*/
+input.btnCode{
+   position: absolute;
+    top: 220px;
+    left: 340px;
+    width: 50px;
+    height: 30px;
+    /*background: url('/home/ctrl-alt-del/Sites/cesar/public/Arrow-Right.png');*/
+
+}
+/*кнопка разкодирования*/
+input.btnDecode{
+   position: absolute;
+    top: 220px;
+    left: 290px;
+    width: 50px;
+    height: 30px;
+    /*background: url('/home/ctrl-alt-del/Sites/cesar/public/Arrow-Left.png');*/
+}
+/*таблица всех значений смещения*/
+table.rotTable{
+   position: absolute;
+    top: 350px;
+    left: 60px;
+    border-collapse: collapse;
+    
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2 
+
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

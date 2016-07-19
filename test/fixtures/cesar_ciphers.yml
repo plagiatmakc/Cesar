@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cipher: MyText
+  tilt: 1
+  result: MyText
+
+two:
+  cipher: MyText
+  tilt: 1
+  result: MyText
